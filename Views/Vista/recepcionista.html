@@ -1,0 +1,43 @@
+<input type="checkbox" id="btn-modal">
+
+<div class="modal">
+    <div class="contenedor">
+        <header>Reserva</header>
+        <label for="btn-modal">X</label>
+        <div class="contenido">
+            <h3>Datos de la Reserva</h3>
+            <div class="col-md-4">
+                <p>Id del Vuelo:</p>
+                <input type="text" name="idVuelo"
+                    id="idVuelo"
+                    class="form-control" placeholder="ID Vuelo" readonly>
+            </div>
+            <div class="col-md-8" >
+                <p>Cedula del Pasajero:</p>
+                <input type="text" name="Cedula"
+                id="Cedula"
+                class="form-control" placeholder="Digite la Cedula del Pasajero" >
+                </div>
+            <div class="col-md-8 margen" >
+                <input type="checkbox" id="check" name="check" onclick="equipajeM()"> Equipaje
+            </div>    
+            <div class="col-md-10" >
+                <div class="equipaje">
+                    <div class="col-md-10" >
+                        <p>Tipo de Equipaje:</p>
+                        <input type="text" name="Equipaje"
+                        id="Equipaje"
+                        class="form-control" placeholder="Digite el Tipo de Equipaje" >
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-16 margen2" >
+                <button class="btn btn-outline-success color" onclick="guardarR()" >Guardar Reserva</button>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>

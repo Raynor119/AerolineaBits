@@ -6,5 +6,65 @@
     color: rgb(0, 0, 0);
     
     }
+.btt{
+    color: rgb(0, 104, 240);
+}
+.btt1{
+    margin-left: 50px;
+    color: rgb(0, 104, 240);
     
+    }
+    .btt2{
+
+        margin-left: 50px;
+        
     
+        }
+        
+        
+    
+
+    .pagado{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 90px;
+        width: 100%;
+    }
+    .npagado{
+
+        display: flex;
+        
+        margin-top: 20px;
+        
+        margin-left: 70px;
+        
+        width: 100%;
+        
+        }
+        
+        
+ .inpu
+
+{
+    margin-left: 50px;
+    margin-top: 20px;
+display: flex;
+
+}
+
+
+    
+.input-group
+{
+    padding: 20px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.contenerdorr{
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 119, 255);
+    justify-content: center;
+    padding: 10px;
+}
+.paginacion { 	margin:20px 0; } .paginacion ul { 	list-style:none; 	text-align: center; } .paginacion ul li { 	display:inline-block; 	margin-right:10px; } .paginacion ul li input { 	display:block; 	padding:5px 10px; 	color:#fff; 	background:#0084ff; 	text-decoration: none; } .paginacion ul li a:hover { 	background:#0084ff; } .paginacion ul li .active { 	background:#0084ff; 	font-weight:bold; }

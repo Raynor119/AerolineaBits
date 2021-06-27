@@ -1,0 +1,203 @@
+<form action="reservasM" method="POST">
+<div class="input-group">
+    <input type="search" class="form-control rounded" placeholder="Cedula del Pasajero" aria-label="Search"
+      aria-describedby="search-addon" id="Cedula" name="Cedula" />
+    <button type="submit" class="btn btn-outline-primary btt">Buscar</button>
+</div>
+</form>
+<input type="checkbox" id="btn-modal">
+
+<div class="modal">
+
+  <div class="contenedor">
+  
+  <header>Metodo de Pago</header>
+  
+  <label for="btn-modal"onclick="reiniciar()">X</label>
+  
+  <div class="contenido">
+    <div class="col-md-16 margen3" >
+  <h3>  Seleccione el Metodo de Pago</h3>
+    </div>
+  <div class="col-md-16 margen2" >
+  <button class="btn btn-outline-success color" onclick="pagarR(1)" >Tarjeta de Credito</button>
+  <button class="btn btn-outline-success color btt2" onclick="pagarR(0)" >PSE</button>
+  </div>
+  
+  
+  </div>
+  <div class="contenido2">
+    <div class="contenido">
+
+    <div class="col-md-14 " >
+    <h3>Pago con Tarjeta de Credito</h3>
+    </div>
+
+    <div class="col-md-10" >
+
+      <p>Numero de Tarjeta de Credito:</p>
+      <div class="col-md-7" >
+      <input type="text" name="cuenta"
+      
+      id="cuenta"
+      
+      class="form-control" placeholder="XXXX XXXX XXXX XXXX" >
+    </div>
+      </div>
+      <div class="col-md-14 margen4">
+      <div class="col-md-6" >
+        <p>fecha de Vencimiento:</p>
+        <div class="col-md-4" >
+        <input type="text" name="fecha"
+        
+        id="fecha"
+        
+        class="form-control" placeholder="MM/YY" >
+        </div>
+        </div>
+        <div class="col-md-6" >
+          <p>CVV:</p>
+          
+          <div class="col-md-3" >
+          
+          <input type="text" name="cvv"
+          
+          id="cvv"
+          
+          class="form-control" placeholder="000" >
+          
+          </div>
+          </div>
+          
+          
+      </div>
+        
+          <div class="col-md-10" >
+            <p>Banco:</p>
+            
+            <div class="col-md-4" >
+            
+            <input type="text" name="banco"
+            
+            id="banco"
+            
+            class="form-control" placeholder="Digite el Banco" >
+            
+            </div>
+            
+            </div>
+
+            <div class="col-md-7 margen5" >
+              <p>Total a Pagar:</p>
+              
+              <div class="col-md-4" >
+              
+              <input type="text" name="monto"
+              
+              id="monto"
+              
+              class="form-control" placeholder="$700,000" readonly>
+              
+              </div>
+              
+              </div>
+
+
+              
+              <div class="col-md-16 margen6" >
+                <button class="btn btn-outline-success color" onclick="pagoc()" >Realizar Pago</button>
+              </div>
+
+
+            
+            
+          
+        
+        
+      
+      
+
+    
+    </div>
+
+
+    </div>
+    <div class="contenido3">
+      <div class="contenido">
+  
+      <div class="col-md-14 " >
+      <h3>Pago con PSE</h3>
+      </div>
+  
+      <div class="col-md-10" >
+  
+        <p>Correo de la Cuenta:</p>
+        <div class="col-md-10" >
+        <input type="text" name="cuenta1"
+        
+        id="cuenta1"
+        
+        class="form-control" placeholder="cuenta@hotmail.com" >
+      </div>
+        </div>
+        
+            <div class="col-md-10" >
+              <p>Banco:</p>
+              
+              <div class="col-md-9" >
+              
+              <input type="text" name="banco1"
+              
+              id="banco1"
+              
+              class="form-control" placeholder="Digite el Banco" >
+              
+              </div>
+              
+              </div>
+  
+              <div class="col-md-10 margen5" >
+                <p>Total a Pagar:</p>
+                
+                <div class="col-md-6" >
+                
+                <input type="text" name="monto"
+                
+                id="monto"
+                
+                class="form-control" placeholder="$700,000" readonly>
+                
+                </div>
+                
+                </div>
+  
+  
+                
+                <div class="col-md-16 margen6" >
+                  <button class="btn btn-outline-success color" onclick="pagoc()" >Realizar Pago</button>
+                </div>
+  
+  
+              
+              
+            
+          
+          
+        
+        
+  
+      
+      </div>
+  
+  
+      </div>
+      
+      
+    
+  </div>
+
+  </div>
+
+  
+  
+  

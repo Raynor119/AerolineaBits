@@ -1,4 +1,3 @@
-SET DateStyle TO European;
 create table usuario(cedula varchar(13) primary key not null,usuario varchar(255) not null,contraseña varchar(255) not null, email varchar(255) not null,telefono bigint null);
 
 create table persona(cedula varchar(13) primary key not null,nombre varchar(255) not null,roll varchar(255) not null,check(roll='pasajero' or roll='recepcionista'));
